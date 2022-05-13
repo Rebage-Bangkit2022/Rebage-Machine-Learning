@@ -1,0 +1,20 @@
+item { 
+	name:'botolplastik'
+	id:1
+}
+item { 
+	name:'gelaskaca'
+	id:2
+}
+item { 
+	name:'kaleng'
+	id:3
+}
+item { 
+	name:'karton'
+	id:4
+}
+item { 
+	name:'kertas'
+	id:5
+}

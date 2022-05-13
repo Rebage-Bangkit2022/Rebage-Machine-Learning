@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botolplastik</folder>
+	<filename>plastic7.jpg</filename>
+	<path>C:\Users\user\Documents\VisualStudioCode\Bangkit2022 - Test Dataset\Dataset\botolplastik\plastic7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolplastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>46</xmin>
+			<ymin>98</ymin>
+			<xmax>320</xmax>
+			<ymax>286</ymax>
+		</bndbox>
+	</object>
+</annotation>

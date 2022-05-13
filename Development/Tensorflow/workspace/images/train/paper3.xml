@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kertas</folder>
+	<filename>paper3.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\kertas\paper3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kertas</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>3</ymin>
+			<xmax>381</xmax>
+			<ymax>324</ymax>
+		</bndbox>
+	</object>
+</annotation>
