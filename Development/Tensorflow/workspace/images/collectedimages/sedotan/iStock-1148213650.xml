@@ -1,0 +1,26 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>iStock-1148213650.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\sedotan\compressed\iStock-1148213650.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>426</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>113</ymin>
+			<xmax>213</xmax>
+			<ymax>365</ymax>
+		</bndbox>
+	</object>
+</annotation>

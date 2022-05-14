@@ -1,0 +1,26 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>sbuxstraw.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\sedotan\compressed\sbuxstraw.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>426</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>65</ymin>
+			<xmax>412</xmax>
+			<ymax>384</ymax>
+		</bndbox>
+	</object>
+</annotation>
