@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kaleng_compressed</folder>
+	<filename>AluCan24.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Dataset_\To be labeled\kaleng_compressed\AluCan24.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kaleng</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>122</ymin>
+			<xmax>435</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+</annotation>
