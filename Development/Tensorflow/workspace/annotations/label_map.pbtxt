@@ -3,18 +3,26 @@ item {
 	id:1
 }
 item { 
-	name:'gelaskaca'
+	name:'botolkaca'
 	id:2
 }
 item { 
-	name:'kaleng'
+	name:'plastik'
 	id:3
 }
 item { 
-	name:'karton'
+	name:'kertas'
 	id:4
 }
 item { 
-	name:'kertas'
+	name:'kardus'
 	id:5
+}
+item { 
+	name:'sedotan'
+	id:6
+}
+item { 
+	name:'sterofoam'
+	id:7
 }

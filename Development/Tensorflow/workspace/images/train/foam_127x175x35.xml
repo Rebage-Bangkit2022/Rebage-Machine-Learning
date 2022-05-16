@@ -1,0 +1,26 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>foam_127x175x35.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\sterofoam\compressed\foam_127x175x35.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>427</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sterofoam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>187</xmin>
+			<ymin>158</ymin>
+			<xmax>455</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+</annotation>

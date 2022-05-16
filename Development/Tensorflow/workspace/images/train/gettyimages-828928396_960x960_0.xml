@@ -1,0 +1,38 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>gettyimages-828928396_960x960_0.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\sedotan\compressed\gettyimages-828928396_960x960_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>155</xmin>
+			<ymin>27</ymin>
+			<xmax>197</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>291</xmin>
+			<ymin>62</ymin>
+			<xmax>313</xmax>
+			<ymax>200</ymax>
+		</bndbox>
+	</object>
+</annotation>
