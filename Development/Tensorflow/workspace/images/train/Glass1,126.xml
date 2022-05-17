@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botol_kaca_compressed</folder>
+	<filename>Glass1,126.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Dataset_\To be labeled\botol_kaca_compressed\Glass1,126.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>359</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolkaca</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>231</xmin>
+			<ymin>302</ymin>
+			<xmax>251</xmax>
+			<ymax>372</ymax>
+		</bndbox>
+	</object>
+</annotation>

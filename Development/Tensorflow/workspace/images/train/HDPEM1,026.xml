@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botol_compressed</folder>
+	<filename>HDPEM1,026.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Dataset_\To be labeled\botol_compressed\HDPEM1,026.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>359</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolplastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>178</ymin>
+			<xmax>234</xmax>
+			<ymax>298</ymax>
+		</bndbox>
+	</object>
+</annotation>
