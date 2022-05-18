@@ -1,7 +1,7 @@
-botolplastik
 botolkaca
-plastik
-kertas
+botolplastik
+kaleng
 kardus
+kertas
+plastik
 sedotan
-sterofoam
