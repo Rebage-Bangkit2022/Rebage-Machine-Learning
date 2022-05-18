@@ -6,3 +6,10 @@
 
 -   ObjectDetectionBoundingBox : https://github.com/KrisnaPinasthika/ObjectDetectionBoundingBox
 -   Dataset Sampah : https://github.com/KrisnaPinasthika/DatasetSampahXML
+
+2. Refernsi dataset:
+
+-   dataset1
+-   dataset2
+-   ...
+-   Membuat dataset sendiri
