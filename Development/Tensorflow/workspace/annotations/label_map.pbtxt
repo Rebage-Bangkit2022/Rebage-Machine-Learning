@@ -1,28 +1,28 @@
 item { 
-	name:'botolplastik'
+	name:'botolkaca'
 	id:1
 }
 item { 
-	name:'botolkaca'
+	name:'botolplastik'
 	id:2
 }
 item { 
-	name:'plastik'
+	name:'kaleng'
 	id:3
 }
 item { 
-	name:'kertas'
+	name:'kardus'
 	id:4
 }
 item { 
-	name:'kardus'
+	name:'kertas'
 	id:5
 }
 item { 
-	name:'sedotan'
+	name:'plastik'
 	id:6
 }
 item { 
-	name:'kaleng'
+	name:'sedotan'
 	id:7
 }
