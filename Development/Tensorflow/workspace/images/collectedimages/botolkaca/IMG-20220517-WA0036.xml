@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botolkaca</folder>
+	<filename>IMG-20220517-WA0036.jpg</filename>
+	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolkaca\IMG-20220517-WA0036.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>360</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolkaca</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>10</ymin>
+			<xmax>208</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>
