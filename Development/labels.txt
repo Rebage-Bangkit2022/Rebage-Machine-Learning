@@ -2,6 +2,7 @@ botolkaca
 botolplastik
 kaleng
 kardus
+karet
 kertas
 plastik
 sedotan
