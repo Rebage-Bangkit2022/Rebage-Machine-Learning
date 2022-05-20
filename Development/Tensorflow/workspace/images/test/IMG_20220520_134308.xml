@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastik</folder>
+	<filename>IMG_20220520_134308.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\plastik\IMG_20220520_134308.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>167</ymin>
+			<xmax>314</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>
