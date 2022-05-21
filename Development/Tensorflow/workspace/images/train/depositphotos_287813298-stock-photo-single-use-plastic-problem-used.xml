@@ -1,0 +1,26 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>depositphotos_287813298-stock-photo-single-use-plastic-problem-used.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\sedotan\compressed\depositphotos_287813298-stock-photo-single-use-plastic-problem-used.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>380</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>376</xmin>
+			<ymin>15</ymin>
+			<xmax>483</xmax>
+			<ymax>207</ymax>
+		</bndbox>
+	</object>
+</annotation>

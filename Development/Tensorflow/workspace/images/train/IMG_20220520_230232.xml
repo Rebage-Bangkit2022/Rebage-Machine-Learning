@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kardus</folder>
+	<filename>IMG_20220520_230232.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_230232.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kardus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>2</ymin>
+			<xmax>299</xmax>
+			<ymax>150</ymax>
+		</bndbox>
+	</object>
+</annotation>
