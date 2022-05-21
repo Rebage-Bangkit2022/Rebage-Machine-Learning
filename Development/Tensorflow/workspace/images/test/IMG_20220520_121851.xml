@@ -1,0 +1,26 @@
+<annotation>
+	<folder>karet</folder>
+	<filename>IMG_20220520_121851.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\IMG_20220520_121851.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>karet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>111</xmin>
+			<ymin>136</ymin>
+			<xmax>224</xmax>
+			<ymax>279</ymax>
+		</bndbox>
+	</object>
+</annotation>
