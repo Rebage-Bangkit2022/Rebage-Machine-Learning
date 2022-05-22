@@ -1,3 +1,5 @@
 Development/Tensorflow/workspace/images/test/*
 Development/Tensorflow/workspace/images/train/*
 Development/Tensorflow/workspace/models/research/*
+
+Development\Tensorflow\workspace\annotations\*.record
