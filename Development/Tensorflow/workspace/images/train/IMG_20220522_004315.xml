@@ -1,22 +1,7 @@
 <annotation>
 	<folder>kardus</folder>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004315.xml
 	<filename>IMG_20220522_004315.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004315.jpg</path>
-========
-	<filename>IMG_20220520_225435.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225435.jpg</path>
->>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225435.xml
-=======
-	<filename>IMG_20220522_004315.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004315.jpg</path>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
-	<filename>IMG_20220522_004315.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004315.jpg</path>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -32,29 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004315.xml
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>87</xmin>
 			<ymin>123</ymin>
 			<xmax>261</xmax>
 			<ymax>260</ymax>
-<<<<<<< HEAD
-<<<<<<< HEAD
-========
-			<xmin>164</xmin>
-			<ymin>164</ymin>
-			<xmax>261</xmax>
-			<ymax>297</ymax>
->>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225435.xml
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>

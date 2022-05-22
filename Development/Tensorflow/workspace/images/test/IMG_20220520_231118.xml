@@ -1,92 +1,26 @@
 <annotation>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
-	<folder>sedotan</folder>
-	<filename>IMG_20220522_002614.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_002614.jpg</path>
-========
 	<folder>kardus</folder>
 	<filename>IMG_20220520_231118.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_231118.jpg</path>
->>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
-=======
-	<folder>kardus</folder>
-	<filename>IMG_20220520_231118.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_231118.jpg</path>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
-	<folder>kardus</folder>
-	<filename>IMG_20220520_231118.jpg</filename>
-	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_231118.jpg</path>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-<<<<<<< HEAD
-<<<<<<< HEAD
-		<width>360</width>
-=======
 		<width>270</width>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
-		<width>270</width>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<height>480</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-<<<<<<< HEAD
-<<<<<<< HEAD
-		<name>sedotan</name>
-=======
 		<name>kardus</name>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
-		<name>kardus</name>
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
-			<xmin>289</xmin>
-			<ymin>216</ymin>
-			<xmax>360</xmax>
-			<ymax>255</ymax>
-========
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>1</xmin>
 			<ymin>104</ymin>
 			<xmax>129</xmax>
 			<ymax>252</ymax>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
-		</bndbox>
-	</object>
-	<object>
-		<name>sedotan</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
-			<xmin>100</xmin>
-			<ymin>26</ymin>
-			<xmax>252</xmax>
-			<ymax>151</ymax>
-========
-=======
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 	<object>
@@ -95,21 +29,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-<<<<<<< HEAD
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>106</xmin>
 			<ymin>163</ymin>
 			<xmax>270</xmax>
 			<ymax>337</ymax>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
-=======
->>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>
