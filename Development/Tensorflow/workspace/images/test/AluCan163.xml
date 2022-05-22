@@ -1,0 +1,38 @@
+<annotation>
+	<folder>kaleng</folder>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/AluCan163.xml
+	<filename>AluCan163.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\AluCan163.jpg</path>
+========
+	<filename>AluCan148.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\AluCan148.jpg</path>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/AluCan148.xml
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>359</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kaleng</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/AluCan163.xml
+			<xmin>220</xmin>
+			<ymin>192</ymin>
+			<xmax>326</xmax>
+			<ymax>267</ymax>
+========
+			<xmin>200</xmin>
+			<ymin>205</ymin>
+			<xmax>306</xmax>
+			<ymax>273</ymax>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/AluCan148.xml
+		</bndbox>
+	</object>
+</annotation>

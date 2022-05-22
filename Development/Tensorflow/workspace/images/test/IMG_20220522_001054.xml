@@ -1,0 +1,38 @@
+<annotation>
+	<folder>sedotan</folder>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001054.xml
+	<filename>IMG_20220522_001054.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_001054.jpg</path>
+========
+	<filename>IMG_20220522_000934.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_000934.jpg</path>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220522_000934.xml
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>270</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sedotan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001054.xml
+			<xmin>21</xmin>
+			<ymin>59</ymin>
+			<xmax>159</xmax>
+			<ymax>167</ymax>
+========
+			<xmin>53</xmin>
+			<ymin>138</ymin>
+			<xmax>135</xmax>
+			<ymax>406</ymax>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220522_000934.xml
+		</bndbox>
+	</object>
+</annotation>
