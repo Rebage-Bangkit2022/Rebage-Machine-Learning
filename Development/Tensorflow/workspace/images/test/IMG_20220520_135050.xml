@@ -1,6 +1,7 @@
 <annotation>
 	<folder>sedotan</folder>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001047.xml
 	<filename>IMG_20220522_001047.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_001047.jpg</path>
@@ -8,6 +9,11 @@
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001541.xml
 	<filename>IMG_20220522_001541.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_001541.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_001006.xml
+	<filename>IMG_20220522_001006.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_001006.jpg</path>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
 	<filename>IMG_20220520_135050.jpg</filename>
@@ -29,6 +35,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001047.xml
 			<xmin>416</xmin>
 			<ymin>154</ymin>
@@ -40,6 +47,13 @@
 			<ymin>128</ymin>
 			<xmax>123</xmax>
 			<ymax>344</ymax>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_001006.xml
+			<xmin>47</xmin>
+			<ymin>7</ymin>
+			<xmax>252</xmax>
+			<ymax>142</ymax>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
 			<xmin>336</xmin>

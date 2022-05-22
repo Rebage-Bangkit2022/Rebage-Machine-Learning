@@ -1,5 +1,6 @@
 <annotation>
 	<folder>kardus</folder>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220520_230321.xml
 	<filename>IMG_20220520_230321.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_230321.jpg</path>
@@ -7,6 +8,10 @@
 	<filename>IMG_20220520_225737.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225737.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225737.xml
+=======
+	<filename>IMG_20220520_230321.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_230321.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -22,17 +27,23 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220520_230321.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>414</xmin>
 			<ymin>2</ymin>
 			<xmax>573</xmax>
 			<ymax>202</ymax>
+<<<<<<< HEAD
 ========
 			<xmin>209</xmin>
 			<ymin>165</ymin>
 			<xmax>434</xmax>
 			<ymax>356</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225737.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>

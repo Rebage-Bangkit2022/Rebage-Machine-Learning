@@ -1,6 +1,7 @@
 <annotation>
 	<folder>kardus</folder>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004521_8.xml
 	<filename>IMG_20220522_004521_8.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004521_8.jpg</path>
@@ -8,6 +9,10 @@
 	<filename>IMG_20220520_225824.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225824.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225824.xml
+=======
+	<filename>IMG_20220522_004521_8.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004521_8.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 	<filename>IMG_20220522_004521_8.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004521_8.jpg</path>
@@ -28,7 +33,10 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004521_8.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>151</xmin>
@@ -36,12 +44,15 @@
 			<xmax>297</xmax>
 			<ymax>309</ymax>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 			<xmin>116</xmin>
 			<ymin>14</ymin>
 			<xmax>256</xmax>
 			<ymax>145</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225824.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>

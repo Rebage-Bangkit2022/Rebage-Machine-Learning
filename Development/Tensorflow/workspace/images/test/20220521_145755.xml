@@ -1,5 +1,6 @@
 <annotation>
 	<folder>plastik</folder>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220521_145755.xml
 	<filename>20220521_145755.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\plastik\20220521_145755.jpg</path>
@@ -7,6 +8,10 @@
 	<filename>20220521_145210.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\plastik\20220521_145210.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220521_145210.xml
+=======
+	<filename>20220521_145755.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\plastik\20220521_145755.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -22,17 +27,23 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220521_145755.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>142</xmin>
 			<ymin>161</ymin>
 			<xmax>213</xmax>
 			<ymax>269</ymax>
+<<<<<<< HEAD
 ========
 			<xmin>150</xmin>
 			<ymin>120</ymin>
 			<xmax>300</xmax>
 			<ymax>388</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220521_145210.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>

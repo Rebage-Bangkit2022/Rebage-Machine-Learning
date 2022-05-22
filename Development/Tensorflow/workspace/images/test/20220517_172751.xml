@@ -1,5 +1,6 @@
 <annotation>
 	<folder>kaleng</folder>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220517_172751.xml
 	<filename>20220517_172751.jpg</filename>
 	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kaleng\20220517_172751.jpg</path>
@@ -7,6 +8,10 @@
 	<filename>1652782521998.jpg</filename>
 	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kaleng\1652782521998.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/1652782521998.xml
+=======
+	<filename>20220517_172751.jpg</filename>
+	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kaleng\20220517_172751.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -22,17 +27,23 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220517_172751.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>74</xmin>
 			<ymin>203</ymin>
 			<xmax>305</xmax>
 			<ymax>295</ymax>
+<<<<<<< HEAD
 ========
 			<xmin>222</xmin>
 			<ymin>232</ymin>
 			<xmax>309</xmax>
 			<ymax>390</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/1652782521998.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>

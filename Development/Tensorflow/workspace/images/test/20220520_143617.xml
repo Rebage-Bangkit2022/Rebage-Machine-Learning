@@ -1,5 +1,6 @@
 <annotation>
 	<folder>karet</folder>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_143617.xml
 	<filename>20220520_143617.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\20220520_143617.jpg</path>
@@ -7,6 +8,10 @@
 	<filename>20220519_183851.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\20220519_183851.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_183851.xml
+=======
+	<filename>20220520_143617.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\20220520_143617.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -22,17 +27,23 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_143617.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>176</xmin>
 			<ymin>207</ymin>
 			<xmax>213</xmax>
 			<ymax>248</ymax>
+<<<<<<< HEAD
 ========
 			<xmin>151</xmin>
 			<ymin>215</ymin>
 			<xmax>219</xmax>
 			<ymax>266</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_183851.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>

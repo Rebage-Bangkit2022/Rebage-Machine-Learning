@@ -1,7 +1,12 @@
 <annotation>
 	<folder>kardus</folder>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_004521_TIMEBURST16.xml
 	<filename>IMG_20220522_004521_TIMEBURST16.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004521_TIMEBURST16.jpg</path>
+========
+	<filename>IMG_20220520_225435.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225435.jpg</path>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225435.xml
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +22,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_004521_TIMEBURST16.xml
 			<xmin>89</xmin>
 			<ymin>102</ymin>
 			<xmax>261</xmax>
 			<ymax>242</ymax>
+========
+			<xmin>164</xmin>
+			<ymin>164</ymin>
+			<xmax>261</xmax>
+			<ymax>297</ymax>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_225435.xml
 		</bndbox>
 	</object>
 </annotation>

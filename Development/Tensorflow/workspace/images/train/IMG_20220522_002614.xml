@@ -1,5 +1,6 @@
 <annotation>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
 	<folder>sedotan</folder>
 	<filename>IMG_20220522_002614.jpg</filename>
@@ -9,6 +10,11 @@
 	<filename>IMG_20220520_231118.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_231118.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
+=======
+	<folder>sedotan</folder>
+	<filename>IMG_20220522_002614.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_002614.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 	<folder>sedotan</folder>
 	<filename>IMG_20220522_002614.jpg</filename>
@@ -30,7 +36,10 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>289</xmin>
@@ -38,12 +47,15 @@
 			<xmax>360</xmax>
 			<ymax>255</ymax>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 			<xmin>1</xmin>
 			<ymin>104</ymin>
 			<xmax>129</xmax>
 			<ymax>252</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
@@ -55,7 +67,10 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_002614.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>100</xmin>
@@ -63,12 +78,15 @@
 			<xmax>252</xmax>
 			<ymax>151</ymax>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========
 			<xmin>106</xmin>
 			<ymin>163</ymin>
 			<xmax>270</xmax>
 			<ymax>337</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_231118.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>

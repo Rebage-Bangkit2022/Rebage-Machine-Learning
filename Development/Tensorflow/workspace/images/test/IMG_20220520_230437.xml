@@ -1,4 +1,5 @@
 <annotation>
+<<<<<<< HEAD
 	<folder>kardus</folder>
 <<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004136.xml
@@ -10,6 +11,14 @@
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004129.jpg</path>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001339.xml
+	<folder>sedotan</folder>
+	<filename>IMG_20220522_001339.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\sedotan\IMG_20220522_001339.jpg</path>
+========
+	<folder>kardus</folder>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<filename>IMG_20220520_230437.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_230437.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/IMG_20220520_230437.xml
@@ -17,17 +26,27 @@
 		<database>Unknown</database>
 	</source>
 	<size>
+<<<<<<< HEAD
 		<width>360</width>
 		<height>480</height>
+=======
+		<width>640</width>
+		<height>360</height>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 		<name>kardus</name>
+=======
+		<name>sedotan</name>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004136.xml
 			<xmin>1</xmin>
@@ -40,6 +59,13 @@
 			<ymin>244</ymin>
 			<xmax>360</xmax>
 			<ymax>447</ymax>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220522_001339.xml
+			<xmin>286</xmin>
+			<ymin>181</ymin>
+			<xmax>299</xmax>
+			<ymax>360</ymax>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
 			<xmin>299</xmin>

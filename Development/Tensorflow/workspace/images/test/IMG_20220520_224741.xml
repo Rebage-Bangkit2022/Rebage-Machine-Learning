@@ -1,6 +1,7 @@
 <annotation>
 	<folder>kardus</folder>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004521_TIMEBURST29.xml
 	<filename>IMG_20220522_004521_TIMEBURST29.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220522_004521_TIMEBURST29.jpg</path>
@@ -8,6 +9,11 @@
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220520_225449.xml
 	<filename>IMG_20220520_225449.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225449.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220520_225111.xml
+	<filename>IMG_20220520_225111.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\IMG_20220520_225111.jpg</path>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
 	<filename>IMG_20220520_224741.jpg</filename>
@@ -18,7 +24,11 @@
 	</source>
 	<size>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<width>360</width>
+=======
+		<width>270</width>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 =======
 		<width>270</width>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
@@ -33,6 +43,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/train/IMG_20220522_004521_TIMEBURST29.xml
 			<xmin>82</xmin>
 			<ymin>144</ymin>
@@ -44,6 +55,13 @@
 			<ymin>302</ymin>
 			<xmax>192</xmax>
 			<ymax>433</ymax>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
+=======
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/IMG_20220520_225111.xml
+			<xmin>101</xmin>
+			<ymin>168</ymin>
+			<xmax>253</xmax>
+			<ymax>349</ymax>
 >>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 ========
 			<xmin>71</xmin>

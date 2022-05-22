@@ -1,7 +1,12 @@
 <annotation>
 	<folder>botolkaca</folder>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220514_181800.xml
 	<filename>20220514_181800.jpg</filename>
 	<path>C:\Users\user\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolkaca\20220514_181800.jpg</path>
+========
+	<filename>20220514_181831.jpg</filename>
+	<path>C:\Users\user\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolkaca\20220514_181831.jpg</path>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220514_181831.xml
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +22,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220514_181800.xml
 			<xmin>146</xmin>
 			<ymin>178</ymin>
 			<xmax>226</xmax>
 			<ymax>332</ymax>
+========
+			<xmin>87</xmin>
+			<ymin>168</ymin>
+			<xmax>153</xmax>
+			<ymax>373</ymax>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220514_181831.xml
 		</bndbox>
 	</object>
 </annotation>

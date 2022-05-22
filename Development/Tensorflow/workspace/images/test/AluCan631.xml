@@ -1,7 +1,12 @@
 <annotation>
 	<folder>kaleng</folder>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/AluCan631.xml
 	<filename>AluCan631.jpg</filename>
 	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\AluCan631.jpg</path>
+========
+	<filename>AluCan163.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\AluCan163.jpg</path>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/AluCan163.xml
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +22,17 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/AluCan631.xml
 			<xmin>237</xmin>
 			<ymin>177</ymin>
 			<xmax>330</xmax>
 			<ymax>282</ymax>
+========
+			<xmin>220</xmin>
+			<ymin>192</ymin>
+			<xmax>326</xmax>
+			<ymax>267</ymax>
+>>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/AluCan163.xml
 		</bndbox>
 	</object>
 </annotation>

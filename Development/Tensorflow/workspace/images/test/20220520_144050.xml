@@ -1,4 +1,5 @@
 <annotation>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
 	<folder>botolplastik</folder>
 	<filename>20220520_144050.jpg</filename>
@@ -8,6 +9,11 @@
 	<filename>20220519_184017.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\20220519_184017.jpg</path>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+	<folder>botolplastik</folder>
+	<filename>20220520_144050.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolplastik\20220520_144050.jpg</path>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -18,16 +24,23 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
 		<name>botolplastik</name>
 ========
 		<name>karet</name>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+		<name>botolplastik</name>
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>107</xmin>
 			<ymin>113</ymin>
 			<xmax>168</xmax>
@@ -36,6 +49,7 @@
 	</object>
 	<object>
 		<name>botolplastik</name>
+<<<<<<< HEAD
 ========
 			<xmin>168</xmin>
 			<ymin>192</ymin>
@@ -46,11 +60,16 @@
 	<object>
 		<name>karet</name>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>138</xmin>
 			<ymin>126</ymin>
 			<xmax>175</xmax>
@@ -59,6 +78,7 @@
 	</object>
 	<object>
 		<name>botolplastik</name>
+<<<<<<< HEAD
 ========
 			<xmin>106</xmin>
 			<ymin>169</ymin>
@@ -69,11 +89,16 @@
 	<object>
 		<name>karet</name>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>47</xmin>
 			<ymin>214</ymin>
 			<xmax>108</xmax>
@@ -82,6 +107,7 @@
 	</object>
 	<object>
 		<name>botolplastik</name>
+<<<<<<< HEAD
 ========
 			<xmin>64</xmin>
 			<ymin>173</ymin>
@@ -92,21 +118,29 @@
 	<object>
 		<name>karet</name>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+<<<<<<< HEAD
 <<<<<<<< HEAD:Development/Tensorflow/workspace/images/test/20220520_144050.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 			<xmin>232</xmin>
 			<ymin>322</ymin>
 			<xmax>285</xmax>
 			<ymax>424</ymax>
+<<<<<<< HEAD
 ========
 			<xmin>42</xmin>
 			<ymin>177</ymin>
 			<xmax>90</xmax>
 			<ymax>201</ymax>
 >>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4:Development/Tensorflow/workspace/images/test/20220519_184017.xml
+=======
+>>>>>>> 36dd46c5696d7f99b95bdf17ee83170d267d21f4
 		</bndbox>
 	</object>
 </annotation>
