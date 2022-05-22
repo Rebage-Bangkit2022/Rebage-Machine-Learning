@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kaleng</folder>
+	<filename>AluCan716.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\AluCan716.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>359</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kaleng</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>255</ymin>
+			<xmax>195</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+</annotation>
