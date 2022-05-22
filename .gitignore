@@ -3,3 +3,4 @@ Development/Tensorflow/workspace/images/train/*
 Development/Tensorflow/models/research/*
 
 Development\Tensorflow\workspace\annotations\*.record
+*\events.out.tfevents.*
