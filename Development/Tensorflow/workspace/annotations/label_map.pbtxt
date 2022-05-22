@@ -1,0 +1,32 @@
+item { 
+	name:'botolkaca'
+	id:1
+}
+item { 
+	name:'botolplastik'
+	id:2
+}
+item { 
+	name:'kaleng'
+	id:3
+}
+item { 
+	name:'kardus'
+	id:4
+}
+item { 
+	name:'karet'
+	id:5
+}
+item { 
+	name:'kertas'
+	id:6
+}
+item { 
+	name:'plastik'
+	id:7
+}
+item { 
+	name:'sedotan'
+	id:8
+}
