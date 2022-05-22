@@ -1,0 +1,26 @@
+<annotation>
+	<folder>compressed</folder>
+	<filename>no_brand_kardus_karton_aqua_mineral_polos_uk_37x25x21_baru_bukan_bekas_full04_lbvxobh6.jpg</filename>
+	<path>C:\Users\MSI-GAMMING\Documents\COOLYEAH\Bangkit\Capstone Project\DatasetSampahXML\Dataset\Tensorflow\kardus\compressed\no_brand_kardus_karton_aqua_mineral_polos_uk_37x25x21_baru_bukan_bekas_full04_lbvxobh6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>479</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kardus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>45</ymin>
+			<xmax>537</xmax>
+			<ymax>390</ymax>
+		</bndbox>
+	</object>
+</annotation>
