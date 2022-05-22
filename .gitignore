@@ -1,5 +1,4 @@
-/Development/Tensorflow/workspace/images/test/*
-/Development/Tensorflow/workspace/images/train/*
-/Development/Tensorflow/workspace/models/research/*
-Development\*
-Development/*
+<<<<<<< HEAD
+=======
+Development/
+>>>>>>> ac79bb86824047b474fb1b11257d27f3ba3c5fee
