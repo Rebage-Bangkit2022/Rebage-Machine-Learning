@@ -15,6 +15,7 @@ Dilakukan augmentasi gambar berupa:
 
 # model_1
 
+menggunakan optimizer Adam dan melakukan Manual Decay untuk learning rate
 Train steps = 30_000 <br>
 initial learning rate = 0.0001 <br>
 schedule[0] steps = 10_000 <br>
