@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>kaleng</folder>
 	<filename>20220517_172435.jpg</filename>
-	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kaleng\20220517_172435.jpg</path>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kaleng\20220517_172435.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,18 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>kardus</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>1</xmin>
-			<ymin>144</ymin>
-			<xmax>360</xmax>
-			<ymax>480</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>kaleng</name>
 		<pose>Unspecified</pose>
