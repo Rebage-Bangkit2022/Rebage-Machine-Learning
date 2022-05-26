@@ -1,7 +1,7 @@
 Development/Tensorflow/workspace/images/test/*
 Development/Tensorflow/workspace/images/train/*
 Development/Tensorflow/models/research/*
-Development/Tensorflow/workspace/models/*
+Development/Tensorflow/workspace/models/
 Development/Tensorflow/workspace/annotations/*.record
 Development/Tensorflow/workspace/models/my_ssd_mobnet_3/train_*
 *\events.out.tfevents.*
