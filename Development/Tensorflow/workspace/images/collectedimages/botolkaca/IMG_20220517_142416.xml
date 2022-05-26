@@ -1,7 +1,7 @@
-<annotation>
+<annotation verified="yes">
 	<folder>botolkaca</folder>
 	<filename>IMG_20220517_142416.jpg</filename>
-	<path>D:\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolkaca\IMG_20220517_142416.jpg</path>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\botolkaca\IMG_20220517_142416.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,30 +21,6 @@
 			<ymin>130</ymin>
 			<xmax>186</xmax>
 			<ymax>208</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>kertas</name>
-		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>222</xmin>
-			<ymin>4</ymin>
-			<xmax>270</xmax>
-			<ymax>71</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>kertas</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>142</xmin>
-			<ymin>117</ymin>
-			<xmax>256</xmax>
-			<ymax>230</ymax>
 		</bndbox>
 	</object>
 </annotation>

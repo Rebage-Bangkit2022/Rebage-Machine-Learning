@@ -17,22 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>150</xmin>
+			<xmin>87</xmin>
 			<ymin>164</ymin>
 			<xmax>245</xmax>
-			<ymax>255</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>karet</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>91</xmin>
-			<ymin>233</ymin>
-			<xmax>187</xmax>
-			<ymax>315</ymax>
+			<ymax>313</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,4 +1,4 @@
-<annotation>
+<annotation verified="yes">
 	<folder>karet</folder>
 	<filename>20220519_184001.jpg</filename>
 	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\karet\20220519_184001.jpg</path>
@@ -31,32 +31,8 @@
 		<bndbox>
 			<xmin>158</xmin>
 			<ymin>278</ymin>
-			<xmax>226</xmax>
-			<ymax>345</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>karet</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>185</xmin>
-			<ymin>319</ymin>
-			<xmax>260</xmax>
-			<ymax>384</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>karet</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>213</xmin>
-			<ymin>320</ymin>
-			<xmax>279</xmax>
-			<ymax>392</ymax>
+			<xmax>277</xmax>
+			<ymax>393</ymax>
 		</bndbox>
 	</object>
 </annotation>
