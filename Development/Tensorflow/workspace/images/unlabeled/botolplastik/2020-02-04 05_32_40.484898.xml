@@ -1,7 +1,7 @@
 <annotation>
 	<folder>botolplastik</folder>
-	<filename>2020-02-04 05_32_23.191585.jpg</filename>
-	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\botolplastik\2020-02-04 05_32_23.191585.jpg</path>
+	<filename>2020-02-04 05_32_40.484898.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\botolplastik\2020-02-04 05_32_40.484898.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>botolplastik</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>275</xmin>
-			<ymin>149</ymin>
-			<xmax>573</xmax>
-			<ymax>600</ymax>
+			<xmin>253</xmin>
+			<ymin>16</ymin>
+			<xmax>519</xmax>
+			<ymax>501</ymax>
 		</bndbox>
 	</object>
 </annotation>
