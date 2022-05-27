@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botolplastik</folder>
+	<filename>2020-02-04 05_17_41.445032(1)(1).jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\botolplastik\2020-02-04 05_17_41.445032(1)(1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolplastik</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>63</ymin>
+			<xmax>532</xmax>
+			<ymax>446</ymax>
+		</bndbox>
+	</object>
+</annotation>
