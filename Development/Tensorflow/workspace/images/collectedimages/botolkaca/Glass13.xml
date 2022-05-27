@@ -1,0 +1,26 @@
+<annotation>
+	<folder>botolkaca</folder>
+	<filename>Glass13.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\botolkaca\Glass13.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>384</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>botolkaca</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>204</xmin>
+			<ymin>150</ymin>
+			<xmax>301</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+</annotation>

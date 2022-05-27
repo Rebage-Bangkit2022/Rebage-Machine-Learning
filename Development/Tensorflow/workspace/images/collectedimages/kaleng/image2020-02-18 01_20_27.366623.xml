@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kaleng</folder>
+	<filename>image2020-02-18 01_20_27.366623.jpg</filename>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kaleng\image2020-02-18 01_20_27.366623.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kaleng</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>86</xmin>
+			<ymin>316</ymin>
+			<xmax>309</xmax>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+</annotation>
