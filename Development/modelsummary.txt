@@ -1,0 +1,459 @@
+Model: "mobilenetv2_1.00_None"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_1 (InputLayer)           [(None, None, None,  0           []                               
+                                 3)]                                                              
+                                                                                                  
+ Conv1 (Conv2D)                 (None, None, None,   864         ['input_1[0][0]']                
+                                32)                                                               
+                                                                                                  
+ bn_Conv1 (FreezableBatchNorm)  (None, None, None,   128         ['Conv1[0][0]']                  
+                                32)                                                               
+                                                                                                  
+ Conv1_relu (Lambda)            (None, None, None,   0           ['bn_Conv1[0][0]']               
+                                32)                                                               
+                                                                                                  
+ expanded_conv_depthwise (Depth  (None, None, None,   288        ['Conv1_relu[0][0]']             
+ wiseConv2D)                    32)                                                               
+                                                                                                  
+ expanded_conv_depthwise_BN (Fr  (None, None, None,   128        ['expanded_conv_depthwise[0][0]']
+ eezableBatchNorm)              32)                                                               
+                                                                                                  
+ expanded_conv_depthwise_relu (  (None, None, None,   0          ['expanded_conv_depthwise_BN[0][0
+ Lambda)                        32)                              ]']                              
+                                                                                                  
+ expanded_conv_project (Conv2D)  (None, None, None,   512        ['expanded_conv_depthwise_relu[0]
+                                16)                              [0]']                            
+                                                                                                  
+ expanded_conv_project_BN (Free  (None, None, None,   64         ['expanded_conv_project[0][0]']  
+ zableBatchNorm)                16)                                                               
+                                                                                                  
+ block_1_expand (Conv2D)        (None, None, None,   1536        ['expanded_conv_project_BN[0][0]'
+                                96)                              ]                                
+                                                                                                  
+ block_1_expand_BN (FreezableBa  (None, None, None,   384        ['block_1_expand[0][0]']         
+ tchNorm)                       96)                                                               
+                                                                                                  
+ block_1_expand_relu (Lambda)   (None, None, None,   0           ['block_1_expand_BN[0][0]']      
+                                96)                                                               
+                                                                                                  
+ block_1_depthwise (DepthwiseCo  (None, None, None,   864        ['block_1_expand_relu[0][0]']    
+ nv2D)                          96)                                                               
+                                                                                                  
+ block_1_depthwise_BN (Freezabl  (None, None, None,   384        ['block_1_depthwise[0][0]']      
+ eBatchNorm)                    96)                                                               
+                                                                                                  
+ block_1_depthwise_relu (Lambda  (None, None, None,   0          ['block_1_depthwise_BN[0][0]']   
+ )                              96)                                                               
+                                                                                                  
+ block_1_project (Conv2D)       (None, None, None,   2304        ['block_1_depthwise_relu[0][0]'] 
+                                24)                                                               
+                                                                                                  
+ block_1_project_BN (FreezableB  (None, None, None,   96         ['block_1_project[0][0]']        
+ atchNorm)                      24)                                                               
+                                                                                                  
+ block_2_expand (Conv2D)        (None, None, None,   3456        ['block_1_project_BN[0][0]']     
+                                144)                                                              
+                                                                                                  
+ block_2_expand_BN (FreezableBa  (None, None, None,   576        ['block_2_expand[0][0]']         
+ tchNorm)                       144)                                                              
+                                                                                                  
+ block_2_expand_relu (Lambda)   (None, None, None,   0           ['block_2_expand_BN[0][0]']      
+                                144)                                                              
+                                                                                                  
+ block_2_depthwise (DepthwiseCo  (None, None, None,   1296       ['block_2_expand_relu[0][0]']    
+ nv2D)                          144)                                                              
+                                                                                                  
+ block_2_depthwise_BN (Freezabl  (None, None, None,   576        ['block_2_depthwise[0][0]']      
+ eBatchNorm)                    144)                                                              
+                                                                                                  
+ block_2_depthwise_relu (Lambda  (None, None, None,   0          ['block_2_depthwise_BN[0][0]']   
+ )                              144)                                                              
+                                                                                                  
+ block_2_project (Conv2D)       (None, None, None,   3456        ['block_2_depthwise_relu[0][0]'] 
+                                24)                                                               
+                                                                                                  
+ block_2_project_BN (FreezableB  (None, None, None,   96         ['block_2_project[0][0]']        
+ atchNorm)                      24)                                                               
+                                                                                                  
+ block_2_add (Add)              (None, None, None,   0           ['block_1_project_BN[0][0]',     
+                                24)                               'block_2_project_BN[0][0]']     
+                                                                                                  
+ block_3_expand (Conv2D)        (None, None, None,   3456        ['block_2_add[0][0]']            
+                                144)                                                              
+                                                                                                  
+ block_3_expand_BN (FreezableBa  (None, None, None,   576        ['block_3_expand[0][0]']         
+ tchNorm)                       144)                                                              
+                                                                                                  
+ block_3_expand_relu (Lambda)   (None, None, None,   0           ['block_3_expand_BN[0][0]']      
+                                144)                                                              
+                                                                                                  
+ block_3_depthwise (DepthwiseCo  (None, None, None,   1296       ['block_3_expand_relu[0][0]']    
+ nv2D)                          144)                                                              
+                                                                                                  
+ block_3_depthwise_BN (Freezabl  (None, None, None,   576        ['block_3_depthwise[0][0]']      
+ eBatchNorm)                    144)                                                              
+                                                                                                  
+ block_3_depthwise_relu (Lambda  (None, None, None,   0          ['block_3_depthwise_BN[0][0]']   
+ )                              144)                                                              
+                                                                                                  
+ block_3_project (Conv2D)       (None, None, None,   4608        ['block_3_depthwise_relu[0][0]'] 
+                                32)                                                               
+                                                                                                  
+ block_3_project_BN (FreezableB  (None, None, None,   128        ['block_3_project[0][0]']        
+ atchNorm)                      32)                                                               
+                                                                                                  
+ block_4_expand (Conv2D)        (None, None, None,   6144        ['block_3_project_BN[0][0]']     
+                                192)                                                              
+                                                                                                  
+ block_4_expand_BN (FreezableBa  (None, None, None,   768        ['block_4_expand[0][0]']         
+ tchNorm)                       192)                                                              
+                                                                                                  
+ block_4_expand_relu (Lambda)   (None, None, None,   0           ['block_4_expand_BN[0][0]']      
+                                192)                                                              
+                                                                                                  
+ block_4_depthwise (DepthwiseCo  (None, None, None,   1728       ['block_4_expand_relu[0][0]']    
+ nv2D)                          192)                                                              
+                                                                                                  
+ block_4_depthwise_BN (Freezabl  (None, None, None,   768        ['block_4_depthwise[0][0]']      
+ eBatchNorm)                    192)                                                              
+                                                                                                  
+ block_4_depthwise_relu (Lambda  (None, None, None,   0          ['block_4_depthwise_BN[0][0]']   
+ )                              192)                                                              
+                                                                                                  
+ block_4_project (Conv2D)       (None, None, None,   6144        ['block_4_depthwise_relu[0][0]'] 
+                                32)                                                               
+                                                                                                  
+ block_4_project_BN (FreezableB  (None, None, None,   128        ['block_4_project[0][0]']        
+ atchNorm)                      32)                                                               
+                                                                                                  
+ block_4_add (Add)              (None, None, None,   0           ['block_3_project_BN[0][0]',     
+                                32)                               'block_4_project_BN[0][0]']     
+                                                                                                  
+ block_5_expand (Conv2D)        (None, None, None,   6144        ['block_4_add[0][0]']            
+                                192)                                                              
+                                                                                                  
+ block_5_expand_BN (FreezableBa  (None, None, None,   768        ['block_5_expand[0][0]']         
+ tchNorm)                       192)                                                              
+                                                                                                  
+ block_5_expand_relu (Lambda)   (None, None, None,   0           ['block_5_expand_BN[0][0]']      
+                                192)                                                              
+                                                                                                  
+ block_5_depthwise (DepthwiseCo  (None, None, None,   1728       ['block_5_expand_relu[0][0]']    
+ nv2D)                          192)                                                              
+                                                                                                  
+ block_5_depthwise_BN (Freezabl  (None, None, None,   768        ['block_5_depthwise[0][0]']      
+ eBatchNorm)                    192)                                                              
+                                                                                                  
+ block_5_depthwise_relu (Lambda  (None, None, None,   0          ['block_5_depthwise_BN[0][0]']   
+ )                              192)                                                              
+                                                                                                  
+ block_5_project (Conv2D)       (None, None, None,   6144        ['block_5_depthwise_relu[0][0]'] 
+                                32)                                                               
+                                                                                                  
+ block_5_project_BN (FreezableB  (None, None, None,   128        ['block_5_project[0][0]']        
+ atchNorm)                      32)                                                               
+                                                                                                  
+ block_5_add (Add)              (None, None, None,   0           ['block_4_add[0][0]',            
+                                32)                               'block_5_project_BN[0][0]']     
+                                                                                                  
+ block_6_expand (Conv2D)        (None, None, None,   6144        ['block_5_add[0][0]']            
+                                192)                                                              
+                                                                                                  
+ block_6_expand_BN (FreezableBa  (None, None, None,   768        ['block_6_expand[0][0]']         
+ tchNorm)                       192)                                                              
+                                                                                                  
+ block_6_expand_relu (Lambda)   (None, None, None,   0           ['block_6_expand_BN[0][0]']      
+                                192)                                                              
+                                                                                                  
+ block_6_depthwise (DepthwiseCo  (None, None, None,   1728       ['block_6_expand_relu[0][0]']    
+ nv2D)                          192)                                                              
+                                                                                                  
+ block_6_depthwise_BN (Freezabl  (None, None, None,   768        ['block_6_depthwise[0][0]']      
+ eBatchNorm)                    192)                                                              
+                                                                                                  
+ block_6_depthwise_relu (Lambda  (None, None, None,   0          ['block_6_depthwise_BN[0][0]']   
+ )                              192)                                                              
+                                                                                                  
+ block_6_project (Conv2D)       (None, None, None,   12288       ['block_6_depthwise_relu[0][0]'] 
+                                64)                                                               
+                                                                                                  
+ block_6_project_BN (FreezableB  (None, None, None,   256        ['block_6_project[0][0]']        
+ atchNorm)                      64)                                                               
+                                                                                                  
+ block_7_expand (Conv2D)        (None, None, None,   24576       ['block_6_project_BN[0][0]']     
+                                384)                                                              
+                                                                                                  
+ block_7_expand_BN (FreezableBa  (None, None, None,   1536       ['block_7_expand[0][0]']         
+ tchNorm)                       384)                                                              
+                                                                                                  
+ block_7_expand_relu (Lambda)   (None, None, None,   0           ['block_7_expand_BN[0][0]']      
+                                384)                                                              
+                                                                                                  
+ block_7_depthwise (DepthwiseCo  (None, None, None,   3456       ['block_7_expand_relu[0][0]']    
+ nv2D)                          384)                                                              
+                                                                                                  
+ block_7_depthwise_BN (Freezabl  (None, None, None,   1536       ['block_7_depthwise[0][0]']      
+ eBatchNorm)                    384)                                                              
+                                                                                                  
+ block_7_depthwise_relu (Lambda  (None, None, None,   0          ['block_7_depthwise_BN[0][0]']   
+ )                              384)                                                              
+                                                                                                  
+ block_7_project (Conv2D)       (None, None, None,   24576       ['block_7_depthwise_relu[0][0]'] 
+                                64)                                                               
+                                                                                                  
+ block_7_project_BN (FreezableB  (None, None, None,   256        ['block_7_project[0][0]']        
+ atchNorm)                      64)                                                               
+                                                                                                  
+ block_7_add (Add)              (None, None, None,   0           ['block_6_project_BN[0][0]',     
+                                64)                               'block_7_project_BN[0][0]']     
+                                                                                                  
+ block_8_expand (Conv2D)        (None, None, None,   24576       ['block_7_add[0][0]']            
+                                384)                                                              
+                                                                                                  
+ block_8_expand_BN (FreezableBa  (None, None, None,   1536       ['block_8_expand[0][0]']         
+ tchNorm)                       384)                                                              
+                                                                                                  
+ block_8_expand_relu (Lambda)   (None, None, None,   0           ['block_8_expand_BN[0][0]']      
+                                384)                                                              
+                                                                                                  
+ block_8_depthwise (DepthwiseCo  (None, None, None,   3456       ['block_8_expand_relu[0][0]']    
+ nv2D)                          384)                                                              
+                                                                                                  
+ block_8_depthwise_BN (Freezabl  (None, None, None,   1536       ['block_8_depthwise[0][0]']      
+ eBatchNorm)                    384)                                                              
+                                                                                                  
+ block_8_depthwise_relu (Lambda  (None, None, None,   0          ['block_8_depthwise_BN[0][0]']   
+ )                              384)                                                              
+                                                                                                  
+ block_8_project (Conv2D)       (None, None, None,   24576       ['block_8_depthwise_relu[0][0]'] 
+                                64)                                                               
+                                                                                                  
+ block_8_project_BN (FreezableB  (None, None, None,   256        ['block_8_project[0][0]']        
+ atchNorm)                      64)                                                               
+                                                                                                  
+ block_8_add (Add)              (None, None, None,   0           ['block_7_add[0][0]',            
+                                64)                               'block_8_project_BN[0][0]']     
+                                                                                                  
+ block_9_expand (Conv2D)        (None, None, None,   24576       ['block_8_add[0][0]']            
+                                384)                                                              
+                                                                                                  
+ block_9_expand_BN (FreezableBa  (None, None, None,   1536       ['block_9_expand[0][0]']         
+ tchNorm)                       384)                                                              
+                                                                                                  
+ block_9_expand_relu (Lambda)   (None, None, None,   0           ['block_9_expand_BN[0][0]']      
+                                384)                                                              
+                                                                                                  
+ block_9_depthwise (DepthwiseCo  (None, None, None,   3456       ['block_9_expand_relu[0][0]']    
+ nv2D)                          384)                                                              
+                                                                                                  
+ block_9_depthwise_BN (Freezabl  (None, None, None,   1536       ['block_9_depthwise[0][0]']      
+ eBatchNorm)                    384)                                                              
+                                                                                                  
+ block_9_depthwise_relu (Lambda  (None, None, None,   0          ['block_9_depthwise_BN[0][0]']   
+ )                              384)                                                              
+                                                                                                  
+ block_9_project (Conv2D)       (None, None, None,   24576       ['block_9_depthwise_relu[0][0]'] 
+                                64)                                                               
+                                                                                                  
+ block_9_project_BN (FreezableB  (None, None, None,   256        ['block_9_project[0][0]']        
+ atchNorm)                      64)                                                               
+                                                                                                  
+ block_9_add (Add)              (None, None, None,   0           ['block_8_add[0][0]',            
+                                64)                               'block_9_project_BN[0][0]']     
+                                                                                                  
+ block_10_expand (Conv2D)       (None, None, None,   24576       ['block_9_add[0][0]']            
+                                384)                                                              
+                                                                                                  
+ block_10_expand_BN (FreezableB  (None, None, None,   1536       ['block_10_expand[0][0]']        
+ atchNorm)                      384)                                                              
+                                                                                                  
+ block_10_expand_relu (Lambda)  (None, None, None,   0           ['block_10_expand_BN[0][0]']     
+                                384)                                                              
+                                                                                                  
+ block_10_depthwise (DepthwiseC  (None, None, None,   3456       ['block_10_expand_relu[0][0]']   
+ onv2D)                         384)                                                              
+                                                                                                  
+ block_10_depthwise_BN (Freezab  (None, None, None,   1536       ['block_10_depthwise[0][0]']     
+ leBatchNorm)                   384)                                                              
+                                                                                                  
+ block_10_depthwise_relu (Lambd  (None, None, None,   0          ['block_10_depthwise_BN[0][0]']  
+ a)                             384)                                                              
+                                                                                                  
+ block_10_project (Conv2D)      (None, None, None,   36864       ['block_10_depthwise_relu[0][0]']
+                                96)                                                               
+                                                                                                  
+ block_10_project_BN (Freezable  (None, None, None,   384        ['block_10_project[0][0]']       
+ BatchNorm)                     96)                                                               
+                                                                                                  
+ block_11_expand (Conv2D)       (None, None, None,   55296       ['block_10_project_BN[0][0]']    
+                                576)                                                              
+                                                                                                  
+ block_11_expand_BN (FreezableB  (None, None, None,   2304       ['block_11_expand[0][0]']        
+ atchNorm)                      576)                                                              
+                                                                                                  
+ block_11_expand_relu (Lambda)  (None, None, None,   0           ['block_11_expand_BN[0][0]']     
+                                576)                                                              
+                                                                                                  
+ block_11_depthwise (DepthwiseC  (None, None, None,   5184       ['block_11_expand_relu[0][0]']   
+ onv2D)                         576)                                                              
+                                                                                                  
+ block_11_depthwise_BN (Freezab  (None, None, None,   2304       ['block_11_depthwise[0][0]']     
+ leBatchNorm)                   576)                                                              
+                                                                                                  
+ block_11_depthwise_relu (Lambd  (None, None, None,   0          ['block_11_depthwise_BN[0][0]']  
+ a)                             576)                                                              
+                                                                                                  
+ block_11_project (Conv2D)      (None, None, None,   55296       ['block_11_depthwise_relu[0][0]']
+                                96)                                                               
+                                                                                                  
+ block_11_project_BN (Freezable  (None, None, None,   384        ['block_11_project[0][0]']       
+ BatchNorm)                     96)                                                               
+                                                                                                  
+ block_11_add (Add)             (None, None, None,   0           ['block_10_project_BN[0][0]',    
+                                96)                               'block_11_project_BN[0][0]']    
+                                                                                                  
+ block_12_expand (Conv2D)       (None, None, None,   55296       ['block_11_add[0][0]']           
+                                576)                                                              
+                                                                                                  
+ block_12_expand_BN (FreezableB  (None, None, None,   2304       ['block_12_expand[0][0]']        
+ atchNorm)                      576)                                                              
+                                                                                                  
+ block_12_expand_relu (Lambda)  (None, None, None,   0           ['block_12_expand_BN[0][0]']     
+                                576)                                                              
+                                                                                                  
+ block_12_depthwise (DepthwiseC  (None, None, None,   5184       ['block_12_expand_relu[0][0]']   
+ onv2D)                         576)                                                              
+                                                                                                  
+ block_12_depthwise_BN (Freezab  (None, None, None,   2304       ['block_12_depthwise[0][0]']     
+ leBatchNorm)                   576)                                                              
+                                                                                                  
+ block_12_depthwise_relu (Lambd  (None, None, None,   0          ['block_12_depthwise_BN[0][0]']  
+ a)                             576)                                                              
+                                                                                                  
+ block_12_project (Conv2D)      (None, None, None,   55296       ['block_12_depthwise_relu[0][0]']
+                                96)                                                               
+                                                                                                  
+ block_12_project_BN (Freezable  (None, None, None,   384        ['block_12_project[0][0]']       
+ BatchNorm)                     96)                                                               
+                                                                                                  
+ block_12_add (Add)             (None, None, None,   0           ['block_11_add[0][0]',           
+                                96)                               'block_12_project_BN[0][0]']    
+                                                                                                  
+ block_13_expand (Conv2D)       (None, None, None,   55296       ['block_12_add[0][0]']           
+                                576)                                                              
+                                                                                                  
+ block_13_expand_BN (FreezableB  (None, None, None,   2304       ['block_13_expand[0][0]']        
+ atchNorm)                      576)                                                              
+                                                                                                  
+ block_13_expand_relu (Lambda)  (None, None, None,   0           ['block_13_expand_BN[0][0]']     
+                                576)                                                              
+                                                                                                  
+ block_13_depthwise (DepthwiseC  (None, None, None,   5184       ['block_13_expand_relu[0][0]']   
+ onv2D)                         576)                                                              
+                                                                                                  
+ block_13_depthwise_BN (Freezab  (None, None, None,   2304       ['block_13_depthwise[0][0]']     
+ leBatchNorm)                   576)                                                              
+                                                                                                  
+ block_13_depthwise_relu (Lambd  (None, None, None,   0          ['block_13_depthwise_BN[0][0]']  
+ a)                             576)                                                              
+                                                                                                  
+ block_13_project (Conv2D)      (None, None, None,   92160       ['block_13_depthwise_relu[0][0]']
+                                160)                                                              
+                                                                                                  
+ block_13_project_BN (Freezable  (None, None, None,   640        ['block_13_project[0][0]']       
+ BatchNorm)                     160)                                                              
+                                                                                                  
+ block_14_expand (Conv2D)       (None, None, None,   153600      ['block_13_project_BN[0][0]']    
+                                960)                                                              
+                                                                                                  
+ block_14_expand_BN (FreezableB  (None, None, None,   3840       ['block_14_expand[0][0]']        
+ atchNorm)                      960)                                                              
+                                                                                                  
+ block_14_expand_relu (Lambda)  (None, None, None,   0           ['block_14_expand_BN[0][0]']     
+                                960)                                                              
+                                                                                                  
+ block_14_depthwise (DepthwiseC  (None, None, None,   8640       ['block_14_expand_relu[0][0]']   
+ onv2D)                         960)                                                              
+                                                                                                  
+ block_14_depthwise_BN (Freezab  (None, None, None,   3840       ['block_14_depthwise[0][0]']     
+ leBatchNorm)                   960)                                                              
+                                                                                                  
+ block_14_depthwise_relu (Lambd  (None, None, None,   0          ['block_14_depthwise_BN[0][0]']  
+ a)                             960)                                                              
+                                                                                                  
+ block_14_project (Conv2D)      (None, None, None,   153600      ['block_14_depthwise_relu[0][0]']
+                                160)                                                              
+                                                                                                  
+ block_14_project_BN (Freezable  (None, None, None,   640        ['block_14_project[0][0]']       
+ BatchNorm)                     160)                                                              
+                                                                                                  
+ block_14_add (Add)             (None, None, None,   0           ['block_13_project_BN[0][0]',    
+                                160)                              'block_14_project_BN[0][0]']    
+                                                                                                  
+ block_15_expand (Conv2D)       (None, None, None,   153600      ['block_14_add[0][0]']           
+                                960)                                                              
+                                                                                                  
+ block_15_expand_BN (FreezableB  (None, None, None,   3840       ['block_15_expand[0][0]']        
+ atchNorm)                      960)                                                              
+                                                                                                  
+ block_15_expand_relu (Lambda)  (None, None, None,   0           ['block_15_expand_BN[0][0]']     
+                                960)                                                              
+                                                                                                  
+ block_15_depthwise (DepthwiseC  (None, None, None,   8640       ['block_15_expand_relu[0][0]']   
+ onv2D)                         960)                                                              
+                                                                                                  
+ block_15_depthwise_BN (Freezab  (None, None, None,   3840       ['block_15_depthwise[0][0]']     
+ leBatchNorm)                   960)                                                              
+                                                                                                  
+ block_15_depthwise_relu (Lambd  (None, None, None,   0          ['block_15_depthwise_BN[0][0]']  
+ a)                             960)                                                              
+                                                                                                  
+ block_15_project (Conv2D)      (None, None, None,   153600      ['block_15_depthwise_relu[0][0]']
+                                160)                                                              
+                                                                                                  
+ block_15_project_BN (Freezable  (None, None, None,   640        ['block_15_project[0][0]']       
+ BatchNorm)                     160)                                                              
+                                                                                                  
+ block_15_add (Add)             (None, None, None,   0           ['block_14_add[0][0]',           
+                                160)                              'block_15_project_BN[0][0]']    
+                                                                                                  
+ block_16_expand (Conv2D)       (None, None, None,   153600      ['block_15_add[0][0]']           
+                                960)                                                              
+                                                                                                  
+ block_16_expand_BN (FreezableB  (None, None, None,   3840       ['block_16_expand[0][0]']        
+ atchNorm)                      960)                                                              
+                                                                                                  
+ block_16_expand_relu (Lambda)  (None, None, None,   0           ['block_16_expand_BN[0][0]']     
+                                960)                                                              
+                                                                                                  
+ block_16_depthwise (DepthwiseC  (None, None, None,   8640       ['block_16_expand_relu[0][0]']   
+ onv2D)                         960)                                                              
+                                                                                                  
+ block_16_depthwise_BN (Freezab  (None, None, None,   3840       ['block_16_depthwise[0][0]']     
+ leBatchNorm)                   960)                                                              
+                                                                                                  
+ block_16_depthwise_relu (Lambd  (None, None, None,   0          ['block_16_depthwise_BN[0][0]']  
+ a)                             960)                                                              
+                                                                                                  
+ block_16_project (Conv2D)      (None, None, None,   307200      ['block_16_depthwise_relu[0][0]']
+                                320)                                                              
+                                                                                                  
+ block_16_project_BN (Freezable  (None, None, None,   1280       ['block_16_project[0][0]']       
+ BatchNorm)                     320)                                                              
+                                                                                                  
+ Conv_1 (Conv2D)                (None, None, None,   409600      ['block_16_project_BN[0][0]']    
+                                1280)                                                             
+                                                                                                  
+ Conv_1_bn (FreezableBatchNorm)  (None, None, None,   5120       ['Conv_1[0][0]']                 
+                                1280)                                                             
+                                                                                                  
+ out_relu (Lambda)              (None, None, None,   0           ['Conv_1_bn[0][0]']              
+                                1280)                                                             
+                                                                                                  
+==================================================================================================
+Total params: 2,257,984
+Trainable params: 2,203,040
+Non-trainable params: 54,944
+__________________________________________________________________________________________________
