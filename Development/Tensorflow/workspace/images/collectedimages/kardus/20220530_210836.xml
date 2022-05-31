@@ -1,7 +1,7 @@
 <annotation>
 	<folder>kardus</folder>
 	<filename>20220530_210836.jpg</filename>
-	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\unlabeled\kardus\20220530_210836.jpg</path>
+	<path>C:\Users\User\Documents\VisualStudioCode\Rebage-Machine-Learning\Development\Tensorflow\workspace\images\collectedimages\kardus\20220530_210836.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>kert</name>
+		<name>kertas</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
