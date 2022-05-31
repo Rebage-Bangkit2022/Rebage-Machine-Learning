@@ -1,5 +1,6 @@
 Development/Tensorflow/workspace/images/test/*
 Development/Tensorflow/workspace/images/train/*
+Development/Tensorflow/models/*
 Development/Tensorflow/models/research/*
 Development/Tensorflow/workspace/models/my_ssd_*
 Development/Tensorflow/workspace/annotations/*.record
