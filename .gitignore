@@ -4,4 +4,5 @@ Development/Tensorflow/models/research/*
 Development/Tensorflow/workspace/models/my_ssd_*
 Development/Tensorflow/workspace/annotations/*.record
 Development/Tensorflow/workspace/models/my_ssd_mobnet_3/train_*
+Development/Tensorflow/scripts
 *\events.out.tfevents.*
