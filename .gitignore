@@ -1,9 +1,48 @@
+# ignore models dependency
+Development/Tensorflow/models/labelimg
+Development/Tensorflow/models/.github/*
+Development/Tensorflow/models/community/*
+Development/Tensorflow/models/official/*
+Development/Tensorflow/models/orbit/*
+Development/Tensorflow/models/tensorflow_models/*
+
+# ignore research exept object detection
+Development/Tensorflow/models/research/adversarial_text
+Development/Tensorflow/models/research/attention_ocr
+Development/Tensorflow/models/research/audioset
+Development/Tensorflow/models/research/autoaugment
+Development/Tensorflow/models/research/build
+Development/Tensorflow/models/research/cognitive_planning
+Development/Tensorflow/models/research/cvt_text
+Development/Tensorflow/models/research/deeplab
+Development/Tensorflow/models/research/deep_speech
+Development/Tensorflow/models/research/delf
+Development/Tensorflow/models/research/dist
+Development/Tensorflow/models/research/efficient-hrl
+Development/Tensorflow/models/research/lfads
+Development/Tensorflow/models/research/lstm_object_detection
+Development/Tensorflow/models/research/marco
+Development/Tensorflow/models/research/nst_blogpost
+# Development/Tensorflow/models/research/object_detection
+# Development/Tensorflow/models/research/object_detection.egg-info
+Development/Tensorflow/models/research/pcl_rl
+Development/Tensorflow/models/research/README.md
+Development/Tensorflow/models/research/rebar
+Development/Tensorflow/models/research/seq_flow_lite
+Development/Tensorflow/models/research/setup.py
+Development/Tensorflow/models/research/slim
+Development/Tensorflow/models/research/vid2depth
+
+# ignore train dan test dataset
 Development/Tensorflow/workspace/images/test/*
 Development/Tensorflow/workspace/images/train/*
-Development/Tensorflow/models/*
-Development/Tensorflow/models/research/*
+
+# ignore saved local trained model
 Development/Tensorflow/workspace/models/my_ssd_*
+
+# ignore tfrecord
 Development/Tensorflow/workspace/annotations/*.record
-Development/Tensorflow/workspace/models/my_ssd_mobnet_3/train_*
+
+# ignore scripts to create tfrecord
 Development/Tensorflow/scripts
 *\events.out.tfevents.*
