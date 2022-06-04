@@ -137,6 +137,7 @@ class SSDMobileNetV2FpnKerasFeatureExtractor(
             alpha=self._depth_multiplier,
             min_depth=self._min_depth,
             include_top=False)
+
         layer_names = [layer.name for layer in full_mobilenet_v2.layers]
         outputs = []
         for layer_idx in [4, 7, 14]:
@@ -147,9 +148,11 @@ class SSDMobileNetV2FpnKerasFeatureExtractor(
                 output_layer_name).output)
         layer_19 = full_mobilenet_v2.get_layer(name='out_relu').output
         outputs.append(layer_19)
+
         self.classification_backbone = tf.keras.Model(
             inputs=full_mobilenet_v2.inputs,
             outputs=outputs)
+
         # pylint:disable=g-long-lambda
         self._depth_fn = lambda d: max(
             int(d * self._depth_multiplier), self._min_depth)
@@ -188,7 +191,7 @@ class SSDMobileNetV2FpnKerasFeatureExtractor(
 
         # INI EDIT MANUAL KRISNA PINASTHIKA
         # Todo: Freezing layer
-        FREEZING_LAYER_END = 30
+        FREEZING_LAYER_END = 50
         for layer in full_mobilenet_v2.layers[:FREEZING_LAYER_END]:
             layer.trainable = False
 
