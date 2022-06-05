@@ -44,5 +44,5 @@ Development/Tensorflow/workspace/models/my_ssd_*
 Development/Tensorflow/workspace/annotations/*.record
 
 # ignore scripts to create tfrecord
-Development/Tensorflow/scripts
+# Development/Tensorflow/scripts
 *\events.out.tfevents.*
