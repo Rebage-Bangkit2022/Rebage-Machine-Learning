@@ -33,7 +33,7 @@ Development/Tensorflow/models/research/setup.py
 Development/Tensorflow/models/research/slim
 Development/Tensorflow/models/research/vid2depth
 
-# ignore train dan test dataset
+# ignore train dan test dataset for efficiency
 Development/Tensorflow/workspace/images/test/*
 Development/Tensorflow/workspace/images/train/*
 
@@ -43,6 +43,4 @@ Development/Tensorflow/workspace/models/my_ssd_*
 # ignore tfrecord
 Development/Tensorflow/workspace/annotations/*.record
 
-# ignore scripts to create tfrecord
-# Development/Tensorflow/scripts
 *\events.out.tfevents.*
