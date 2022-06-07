@@ -1,6 +1,6 @@
 # The machine learning part required by the Rebage application
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/512px-TensorFlow_logo.svg.png?20211220215155" width="325"/>
+<p align="center" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TensorFlow_logo.svg/512px-TensorFlow_logo.svg.png?20211220215155" width="325"/> </p>
 
 ## To perform object detection, we conducted experiments to learn how to create bounding boxes and also perform dataset creation.
 
