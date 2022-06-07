@@ -13,7 +13,7 @@
 -   https://www.kaggle.com/datasets/moezabid/bottles-and-cans
 -   Creating datasets manually by taking photos through a smartphone camera
 
-## object label to be classified
+## Object label to be classified
 
 1. glass bottle
 2. plastic bottles
