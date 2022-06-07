@@ -191,9 +191,9 @@ class SSDMobileNetV2FpnKerasFeatureExtractor(
 
         # INI EDIT MANUAL KRISNA PINASTHIKA
         # Todo: Freezing layer
-        FREEZING_LAYER_END = 50
-        for layer in full_mobilenet_v2.layers[:FREEZING_LAYER_END]:
-            layer.trainable = False
+        # FREEZING_LAYER_END = 50
+        # for layer in full_mobilenet_v2.layers[:FREEZING_LAYER_END]:
+        #     layer.trainable = False
 
         # for layer in full_mobilenet_v2.layers:
         #     layer.trainable = False
