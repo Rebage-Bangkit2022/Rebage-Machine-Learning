@@ -13,7 +13,7 @@
 -   https://www.kaggle.com/datasets/moezabid/bottles-and-cans
 -   Creating datasets manually by taking photos through a smartphone camera
 
-## Docummentation:
+## Documentation:
 
 1. Looking for references and creating datasets manually by taking photos through a smartphone camera
 2. Provide a bounding box and label for each data
