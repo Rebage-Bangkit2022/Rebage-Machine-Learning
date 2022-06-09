@@ -43,6 +43,4 @@ Development/Tensorflow/workspace/models/my_ssd_*
 # ignore tfrecord
 Development/Tensorflow/workspace/annotations/*.record
 
-# Development/Tensorflow/scripts/*
-
 *\events.out.tfevents.*
