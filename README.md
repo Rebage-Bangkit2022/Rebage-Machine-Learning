@@ -32,11 +32,10 @@
 4. Divide the data in a ratio of 80 (train) and 10 (test)
 5. Create TFRecord for train and test data
 6. Experiment for freezing layer on feature extractor section of MobileNet v2 architecture
-7. Augmenting image data
-8. Tuning hyperparameter
-9. Conduct machine learning model training experiments with 50,000 to 75,000 train steps
-10. Evaluate the model
-11. Testing real data using real photos
-12. Testing real data using a webcam
-13. Save the model by changing the input to base64
-14. Deploy the model to Vertex AI
+7. Augmenting image data and Tuning hyperparameter
+8. Conduct machine learning model training experiments with 50,000 to 75,000 train steps
+9. Evaluate the machine learning model 
+10. Testing real data using real photos and using a webcam
+11. Save the model by changing the input to base64
+12. Deploy the model to Vertex AI
+
